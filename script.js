@@ -5,6 +5,6 @@ var myButton = document.getElementById("myButton");
 // Add a click event listener to the button
 function handleClick(){
     console.log('hi');
-    var thing = querySelector("reveal");
+    var thing = Document.getElementsByClass("reveal");
     console.log(thing);
 }

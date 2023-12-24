@@ -3,7 +3,6 @@ console.log('hi');
 var myButton = document.getElementById("myButton");
 
 // Add a click event listener to the button
-myButton.addEventListener("click", function() {
-    // Code to execute when the button is clicked
-    alert("Button clicked!");
-});
+function handleClick(){
+    console.log('hi');
+}

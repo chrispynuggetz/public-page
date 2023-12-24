@@ -6,5 +6,5 @@ var myButton = document.getElementById("myButton");
 function handleClick(){
     console.log('hi');
     var thing = document.getElementsByClassName("reveal");
-    console.log(thing);
+    thing[0].display='inline';
 }

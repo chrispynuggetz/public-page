@@ -1,3 +1,4 @@
+console.log('hi');
 // Get a reference to the button element by its ID
 var myButton = document.getElementById("myButton");
 
